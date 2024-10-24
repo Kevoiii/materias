@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu", "Menu\Menu.csproj", "{8A993B3B-05D8-45C7-B755-ADA5571ADCF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A993B3B-05D8-45C7-B755-ADA5571ADCF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A993B3B-05D8-45C7-B755-ADA5571ADCF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A993B3B-05D8-45C7-B755-ADA5571ADCF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A993B3B-05D8-45C7-B755-ADA5571ADCF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
