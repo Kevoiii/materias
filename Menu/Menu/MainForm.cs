@@ -33,7 +33,31 @@ namespace Menu
 		{
 			English ingles = new English();
 			ingles.Show();
-			this.Close();
+			
+		}
+		void BtnFisicaClick(object sender, EventArgs e)
+		{ 
+			Fisica1 fisica = new Fisica1();
+			fisica.Show();
+			
+		}
+		void BtnmateClick(object sender, EventArgs e)
+		{
+			Matematicas mate = new Matematicas();
+			mate.Show();
+			
+		}
+		void BtnhumanidadesClick(object sender, EventArgs e)
+		{
+			Humanidades huma = new Humanidades();
+			huma.Show();
+			
+		}
+		void BtnecoClick(object sender, EventArgs e)
+		{
+			ecosistemas eco = new ecosistemas();
+			eco.Show();
+			
 		}
 	}
 }
