@@ -1,0 +1,10 @@
+C:\Users\CC2-PC14\materias\Menu\Menu\bin\Debug\Menu.exe
+C:\Users\CC2-PC14\materias\Menu\Menu\bin\Debug\Menu.pdb
+C:\Users\CC2-PC14\materias\Menu\Menu\obj\Debug\Menu.csprojResolveAssemblyReference.cache
+C:\Users\CC2-PC14\materias\Menu\Menu\obj\Debug\Menu.Humanidades.resources
+C:\Users\CC2-PC14\materias\Menu\Menu\obj\Debug\Menu.ecosistemas.resources
+C:\Users\CC2-PC14\materias\Menu\Menu\obj\Debug\Menu.MainForm.resources
+C:\Users\CC2-PC14\materias\Menu\Menu\obj\Debug\Menu.Matematicas.resources
+C:\Users\CC2-PC14\materias\Menu\Menu\obj\Debug\Menu.csproj.GenerateResource.Cache
+C:\Users\CC2-PC14\materias\Menu\Menu\obj\Debug\Menu.exe
+C:\Users\CC2-PC14\materias\Menu\Menu\obj\Debug\Menu.pdb

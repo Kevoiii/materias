@@ -46,25 +46,28 @@
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
 
+  <ItemGroup>
     <Compile Include="Humanidades.cs" />
     <Compile Include="Humanidades.Designer.cs">
       <DependentUpon>Humanidades.cs</DependentUpon>
+    </Compile>
 
     <Compile Include="ecosistemas.cs" />
     <Compile Include="ecosistemas.Designer.cs">
       <DependentUpon>ecosistemas.cs</DependentUpon>
-
     </Compile>
+
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+
     <Compile Include="Matematicas.cs" />
     <Compile Include="Matematicas.Designer.cs">
       <DependentUpon>Matematicas.cs</DependentUpon>
     </Compile>
+
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -72,6 +75,7 @@
 
     <EmbeddedResource Include="Humanidades.resx">
       <DependentUpon>Humanidades.cs</DependentUpon>
+    </EmbeddedResource>
 
     <EmbeddedResource Include="ecosistemas.resx">
       <DependentUpon>ecosistemas.cs</DependentUpon>
