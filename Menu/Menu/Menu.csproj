@@ -46,40 +46,39 @@
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
   </ItemGroup>
-
   <ItemGroup>
+    <Compile Include="Fisica1.cs" />
+    <Compile Include="Fisica1.Designer.cs">
+      <DependentUpon>Fisica1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Humanidades.cs" />
     <Compile Include="Humanidades.Designer.cs">
       <DependentUpon>Humanidades.cs</DependentUpon>
     </Compile>
-
     <Compile Include="ecosistemas.cs" />
     <Compile Include="ecosistemas.Designer.cs">
       <DependentUpon>ecosistemas.cs</DependentUpon>
     </Compile>
-
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-
     <Compile Include="Matematicas.cs" />
     <Compile Include="Matematicas.Designer.cs">
       <DependentUpon>Matematicas.cs</DependentUpon>
     </Compile>
-
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-
+    <EmbeddedResource Include="Fisica1.resx">
+      <DependentUpon>Fisica1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Humanidades.resx">
       <DependentUpon>Humanidades.cs</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Include="ecosistemas.resx">
       <DependentUpon>ecosistemas.cs</DependentUpon>
-
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
