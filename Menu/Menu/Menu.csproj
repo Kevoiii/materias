@@ -47,9 +47,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+
+    <Compile Include="Humanidades.cs" />
+    <Compile Include="Humanidades.Designer.cs">
+      <DependentUpon>Humanidades.cs</DependentUpon>
+
     <Compile Include="ecosistemas.cs" />
     <Compile Include="ecosistemas.Designer.cs">
       <DependentUpon>ecosistemas.cs</DependentUpon>
+
     </Compile>
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
@@ -63,8 +69,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+
+    <EmbeddedResource Include="Humanidades.resx">
+      <DependentUpon>Humanidades.cs</DependentUpon>
+
     <EmbeddedResource Include="ecosistemas.resx">
       <DependentUpon>ecosistemas.cs</DependentUpon>
+
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
