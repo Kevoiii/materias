@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace Menu
+namespace Menu 
 {
 	/// <summary>
 	/// Description of MainForm.
@@ -28,6 +28,12 @@ namespace Menu
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
+		}
+		void BtninglesClick(object sender, EventArgs e)
+		{
+			English ingles = new English();
+			ingles.Show();
+			this.Close();
 		}
 	}
 }
