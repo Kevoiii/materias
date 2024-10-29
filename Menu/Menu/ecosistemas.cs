@@ -28,5 +28,10 @@ namespace Menu
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void Label2Click(object sender, EventArgs e)
+		{
+			
+		}
 	}
 }
