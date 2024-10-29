@@ -1,26 +1,23 @@
 ﻿/*
  * Created by SharpDevelop.
- * User: CC2-PC15
- * Date: 24/10/2024
- * Time: 04:27 p. m.
+ * User: CC2-PC08
+ * Date: 29/10/2024
+ * Time: 07:54 a. m.
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using System.Collections.Generic;
-using System.Linq;
-
 
 namespace Menu
 {
 	/// <summary>
-	/// Description of Matematicas.
+	/// Description of Matematicas_2.
 	/// </summary>
-	public partial class Matematicas : Form 
+	public partial class Matematicas_2 : Form
 	{
-		public Matematicas()
+		public Matematicas_2()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -30,6 +27,13 @@ namespace Menu
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
+		}
+		
+		void LblregresarClick(object sender, EventArgs e)
+		{
+			Matematicas Matematicas = new Matematicas();
+            Matematicas.Show(); // Muestra Form1
+            this.Close(); // Cierra Form2
 		}
 	}
 }
