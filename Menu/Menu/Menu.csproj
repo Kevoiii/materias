@@ -72,6 +72,10 @@
     <Compile Include="Matematicas.Designer.cs">
       <DependentUpon>Matematicas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Matematicas_calculo.cs" />
+    <Compile Include="Matematicas_calculo.Designer.cs">
+      <DependentUpon>Matematicas_calculo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -93,6 +97,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Matematicas.resx">
       <DependentUpon>Matematicas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Matematicas_calculo.resx">
+      <DependentUpon>Matematicas_calculo.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
