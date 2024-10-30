@@ -39,9 +39,9 @@ namespace Menu
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(adivinanza));
 			this.label1 = new System.Windows.Forms.Label();
 			this.lblAdivinanza = new System.Windows.Forms.Label();
-			this.txtRespuesta = new System.Windows.Forms.TextBox();
+			this.txtRespuesta1 = new System.Windows.Forms.TextBox();
 			this.lblAdivinanza2 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.txtRespuesta2 = new System.Windows.Forms.TextBox();
 			this.btnVerificar = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
@@ -66,12 +66,12 @@ namespace Menu
 			this.lblAdivinanza.Text = "En mis páginas encuentras cuentos,\nsabiduría y sentimientos,\nhistorias de amor y " +
 			"de guerra,\nen un mundo que siempre se aferra.\n¿Qué soy?";
 			// 
-			// txtRespuesta
+			// txtRespuesta1
 			// 
-			this.txtRespuesta.Location = new System.Drawing.Point(287, 68);
-			this.txtRespuesta.Name = "txtRespuesta";
-			this.txtRespuesta.Size = new System.Drawing.Size(100, 20);
-			this.txtRespuesta.TabIndex = 2;
+			this.txtRespuesta1.Location = new System.Drawing.Point(287, 68);
+			this.txtRespuesta1.Name = "txtRespuesta1";
+			this.txtRespuesta1.Size = new System.Drawing.Size(100, 20);
+			this.txtRespuesta1.TabIndex = 2;
 			// 
 			// lblAdivinanza2
 			// 
@@ -84,12 +84,12 @@ namespace Menu
 			this.lblAdivinanza2.Text = "Busco en el tiempo y en el lugar,\nlos ecos de un pasado a contar.\nCon fechas y no" +
 			"mbres voy a jugar,\nen libros antiguos te voy a llevar.\n¿Qué soy?";
 			// 
-			// textBox1
+			// txtRespuesta2
 			// 
-			this.textBox1.Location = new System.Drawing.Point(287, 187);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(100, 20);
-			this.textBox1.TabIndex = 4;
+			this.txtRespuesta2.Location = new System.Drawing.Point(287, 187);
+			this.txtRespuesta2.Name = "txtRespuesta2";
+			this.txtRespuesta2.Size = new System.Drawing.Size(100, 20);
+			this.txtRespuesta2.TabIndex = 4;
 			// 
 			// btnVerificar
 			// 
@@ -101,6 +101,7 @@ namespace Menu
 			this.btnVerificar.TabIndex = 5;
 			this.btnVerificar.Text = "Verificar";
 			this.btnVerificar.UseVisualStyleBackColor = false;
+			this.btnVerificar.Click += new System.EventHandler(this.BtnVerificarClick);
 			// 
 			// adivinanza
 			// 
@@ -109,9 +110,9 @@ namespace Menu
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.ClientSize = new System.Drawing.Size(435, 340);
 			this.Controls.Add(this.btnVerificar);
-			this.Controls.Add(this.textBox1);
+			this.Controls.Add(this.txtRespuesta2);
 			this.Controls.Add(this.lblAdivinanza2);
-			this.Controls.Add(this.txtRespuesta);
+			this.Controls.Add(this.txtRespuesta1);
 			this.Controls.Add(this.lblAdivinanza);
 			this.Controls.Add(this.label1);
 			this.Name = "adivinanza";
@@ -120,9 +121,9 @@ namespace Menu
 			this.PerformLayout();
 		}
 		private System.Windows.Forms.Button btnVerificar;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox txtRespuesta2;
 		private System.Windows.Forms.Label lblAdivinanza2;
-		private System.Windows.Forms.TextBox txtRespuesta;
+		private System.Windows.Forms.TextBox txtRespuesta1;
 		private System.Windows.Forms.Label lblAdivinanza;
 		private System.Windows.Forms.Label label1;
 	}

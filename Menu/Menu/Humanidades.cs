@@ -40,4 +40,4 @@ namespace Menu
 			this.Close();
 		}
 	}
-}
+} 
