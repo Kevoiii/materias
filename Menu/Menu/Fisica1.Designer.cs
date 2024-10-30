@@ -45,9 +45,10 @@ namespace Menu
 			this.label6 = new System.Windows.Forms.Label();
 			this.label7 = new System.Windows.Forms.Label();
 			this.label8 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
-			this.textBox2 = new System.Windows.Forms.TextBox();
-			this.textBox3 = new System.Windows.Forms.TextBox();
+			this.Txtvo = new System.Windows.Forms.TextBox();
+			this.Txtt = new System.Windows.Forms.TextBox();
+			this.Txta = new System.Windows.Forms.TextBox();
+			this.BtnCalcular = new System.Windows.Forms.Button();
 			this.button1 = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
@@ -119,37 +120,50 @@ namespace Menu
 			this.label8.Size = new System.Drawing.Size(215, 19);
 			this.label8.TabIndex = 13;
 			// 
-			// textBox1
+			// Txtvo
 			// 
-			this.textBox1.Location = new System.Drawing.Point(251, 178);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(38, 20);
-			this.textBox1.TabIndex = 14;
+			this.Txtvo.Location = new System.Drawing.Point(251, 178);
+			this.Txtvo.Name = "Txtvo";
+			this.Txtvo.Size = new System.Drawing.Size(38, 20);
+			this.Txtvo.TabIndex = 14;
 			// 
-			// textBox2
+			// Txtt
 			// 
-			this.textBox2.Location = new System.Drawing.Point(251, 212);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(38, 20);
-			this.textBox2.TabIndex = 15;
+			this.Txtt.Location = new System.Drawing.Point(251, 212);
+			this.Txtt.Name = "Txtt";
+			this.Txtt.Size = new System.Drawing.Size(38, 20);
+			this.Txtt.TabIndex = 15;
 			// 
-			// textBox3
+			// Txta
 			// 
-			this.textBox3.Location = new System.Drawing.Point(251, 246);
-			this.textBox3.Name = "textBox3";
-			this.textBox3.Size = new System.Drawing.Size(38, 20);
-			this.textBox3.TabIndex = 16;
+			this.Txta.Location = new System.Drawing.Point(251, 246);
+			this.Txta.Name = "Txta";
+			this.Txta.Size = new System.Drawing.Size(38, 20);
+			this.Txta.TabIndex = 16;
+			// 
+			// BtnCalcular
+			// 
+			this.BtnCalcular.BackColor = System.Drawing.Color.White;
+			this.BtnCalcular.Font = new System.Drawing.Font("Microsoft Yi Baiti", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BtnCalcular.Location = new System.Drawing.Point(230, 272);
+			this.BtnCalcular.Name = "BtnCalcular";
+			this.BtnCalcular.Size = new System.Drawing.Size(59, 24);
+			this.BtnCalcular.TabIndex = 17;
+			this.BtnCalcular.Text = "Calcular";
+			this.BtnCalcular.UseVisualStyleBackColor = false;
+			this.BtnCalcular.Click += new System.EventHandler(this.BtnCalcularClick);
 			// 
 			// button1
 			// 
-			this.button1.BackColor = System.Drawing.Color.White;
-			this.button1.Font = new System.Drawing.Font("Microsoft Yi Baiti", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button1.Location = new System.Drawing.Point(230, 272);
+			this.button1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+			this.button1.Font = new System.Drawing.Font("Microsoft Yi Baiti", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button1.Location = new System.Drawing.Point(230, 303);
 			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(59, 24);
-			this.button1.TabIndex = 17;
-			this.button1.Text = "Calcular";
+			this.button1.Size = new System.Drawing.Size(59, 23);
+			this.button1.TabIndex = 18;
+			this.button1.Text = "Volver";
 			this.button1.UseVisualStyleBackColor = false;
+			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
 			// Fisica1
 			// 
@@ -159,9 +173,10 @@ namespace Menu
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.ClientSize = new System.Drawing.Size(301, 336);
 			this.Controls.Add(this.button1);
-			this.Controls.Add(this.textBox3);
-			this.Controls.Add(this.textBox2);
-			this.Controls.Add(this.textBox1);
+			this.Controls.Add(this.BtnCalcular);
+			this.Controls.Add(this.Txta);
+			this.Controls.Add(this.Txtt);
+			this.Controls.Add(this.Txtvo);
 			this.Controls.Add(this.label8);
 			this.Controls.Add(this.label7);
 			this.Controls.Add(this.label6);
@@ -175,9 +190,10 @@ namespace Menu
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
-		private System.Windows.Forms.TextBox textBox3;
-		private System.Windows.Forms.TextBox textBox2;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.TextBox Txta;
+		private System.Windows.Forms.TextBox Txtt;
+		private System.Windows.Forms.TextBox Txtvo;
 		private System.Windows.Forms.Label label8;
 		private System.Windows.Forms.Label label7;
 		private System.Windows.Forms.Label label6;
@@ -186,6 +202,6 @@ namespace Menu
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Button BtnCalcular;
 	}
 }
