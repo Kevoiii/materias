@@ -28,5 +28,24 @@ namespace Menu
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
-	} 
+		
+		void BtnVerificarClick(object sender, EventArgs e)
+		{
+			string respuestaCorrecta1 = "Literatura";
+			string respuestaCorrecta2 = "Historia";
+			
+			string respuestaUsuario1 = txtRespuesta1.Text.Trim();
+            string respuestaUsuario2 = txtRespuesta2.Text.Trim();
+            
+		 if (respuestaUsuario1.Equals(respuestaCorrecta1, StringComparison.OrdinalIgnoreCase) &&
+        respuestaUsuario2.Equals(respuestaCorrecta2, StringComparison.OrdinalIgnoreCase))
+    {
+        MessageBox.Show("¡Ambas respuestas son correctas!");
+    }
+    else
+    {
+        MessageBox.Show("Una o ambas respuestas son incorrectas, intenta de nuevo.");
+    }
 }
+	}
+} 
