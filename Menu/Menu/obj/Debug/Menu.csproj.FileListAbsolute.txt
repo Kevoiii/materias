@@ -31,3 +31,15 @@ C:\Users\Usuario\materias\Menu\Menu\obj\Debug\Menu.Matematicas.resources
 C:\Users\Usuario\materias\Menu\Menu\obj\Debug\Menu.csproj.GenerateResource.Cache
 C:\Users\Usuario\materias\Menu\Menu\obj\Debug\Menu.exe
 C:\Users\Usuario\materias\Menu\Menu\obj\Debug\Menu.pdb
+C:\Users\CC2_PC29\materias\Menu\Menu\obj\Debug\Menu.csprojResolveAssemblyReference.cache
+C:\Users\CC2_PC29\materias\Menu\Menu\obj\Debug\Menu.English.resources
+C:\Users\CC2_PC29\materias\Menu\Menu\obj\Debug\Menu.Fisica1.resources
+C:\Users\CC2_PC29\materias\Menu\Menu\obj\Debug\Menu.Humanidades.resources
+C:\Users\CC2_PC29\materias\Menu\Menu\obj\Debug\Menu.ecosistemas.resources
+C:\Users\CC2_PC29\materias\Menu\Menu\obj\Debug\Menu.MainForm.resources
+C:\Users\CC2_PC29\materias\Menu\Menu\obj\Debug\Menu.Matematicas.resources
+C:\Users\CC2_PC29\materias\Menu\Menu\obj\Debug\Menu.csproj.GenerateResource.Cache
+C:\Users\CC2_PC29\materias\Menu\Menu\obj\Debug\Menu.exe
+C:\Users\CC2_PC29\materias\Menu\Menu\bin\Debug\Menu.exe
+C:\Users\CC2_PC29\materias\Menu\Menu\bin\Debug\Menu.pdb
+C:\Users\CC2_PC29\materias\Menu\Menu\obj\Debug\Menu.pdb
