@@ -42,9 +42,5 @@ namespace Menu
 			
 		}
 		
-		void Button2Click(object sender, EventArgs e)
-		{
-			this.Close();
-		}
 	}
 }
