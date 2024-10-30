@@ -28,5 +28,23 @@ namespace Menu
 			// TODO: Add constructor code after the InitializeComponent() call.
 			// 
 		}
+		
+		
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			double vo = double.Parse(txtvo.Text);
+			double t = double.Parse(txtt.Text); 
+			double a = double.Parse(txta.Text);
+			double vel;
+			vel =vo-a*t;
+			MessageBox.Show("La velocidad fue " + vel.ToString());
+			
+		}
+		
+		void Button2Click(object sender, EventArgs e)
+		{
+			this.Close();
+		}
 	}
 }

@@ -33,8 +33,7 @@ namespace Menu
 		}
 		void Button1Click(object sender, EventArgs e)
 		{
-			MainForm menu = new MainForm();
-			menu.Show();
+			
 			this.Close();
 			
 		}
