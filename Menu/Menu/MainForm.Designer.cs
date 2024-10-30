@@ -67,6 +67,7 @@ namespace Menu
 			this.btnFisica.TabIndex = 1;
 			this.btnFisica.Text = "Fisica";
 			this.btnFisica.UseVisualStyleBackColor = false;
+			this.btnFisica.Click += new System.EventHandler(this.BtnFisicaClick);
 			// 
 			// btneco
 			// 
@@ -78,6 +79,7 @@ namespace Menu
 			this.btneco.TabIndex = 2;
 			this.btneco.Text = "Ecosistemas";
 			this.btneco.UseVisualStyleBackColor = false;
+			this.btneco.Click += new System.EventHandler(this.BtnecoClick);
 			// 
 			// btnmate
 			// 
@@ -89,6 +91,7 @@ namespace Menu
 			this.btnmate.TabIndex = 3;
 			this.btnmate.Text = "Matematicas";
 			this.btnmate.UseVisualStyleBackColor = false;
+			this.btnmate.Click += new System.EventHandler(this.BtnmateClick);
 			// 
 			// btnhumanidades
 			// 
@@ -100,6 +103,7 @@ namespace Menu
 			this.btnhumanidades.TabIndex = 4;
 			this.btnhumanidades.Text = "Humanidades";
 			this.btnhumanidades.UseVisualStyleBackColor = false;
+			this.btnhumanidades.Click += new System.EventHandler(this.BtnhumanidadesClick);
 			// 
 			// label1
 			// 
