@@ -42,7 +42,6 @@ namespace Menu
 			this.label3 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
 			this.label5 = new System.Windows.Forms.Label();
-			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.label6 = new System.Windows.Forms.Label();
 			this.label7 = new System.Windows.Forms.Label();
 			this.label9 = new System.Windows.Forms.Label();
@@ -55,6 +54,20 @@ namespace Menu
 			this.label15 = new System.Windows.Forms.Label();
 			this.label16 = new System.Windows.Forms.Label();
 			this.label17 = new System.Windows.Forms.Label();
+			this.label18 = new System.Windows.Forms.Label();
+			this.label19 = new System.Windows.Forms.Label();
+			this.label21 = new System.Windows.Forms.Label();
+			this.label20 = new System.Windows.Forms.Label();
+			this.label22 = new System.Windows.Forms.Label();
+			this.label23 = new System.Windows.Forms.Label();
+			this.label25 = new System.Windows.Forms.Label();
+			this.label24 = new System.Windows.Forms.Label();
+			this.label26 = new System.Windows.Forms.Label();
+			this.label27 = new System.Windows.Forms.Label();
+			this.label28 = new System.Windows.Forms.Label();
+			this.label29 = new System.Windows.Forms.Label();
+			this.pictureBox1 = new System.Windows.Forms.PictureBox();
+			this.button1 = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -78,13 +91,12 @@ namespace Menu
 			this.label2.Size = new System.Drawing.Size(282, 34);
 			this.label2.TabIndex = 1;
 			this.label2.Text = "¿Qué significa ecología?";
-			this.label2.Click += new System.EventHandler(this.Label2Click);
 			// 
 			// label3
 			// 
 			this.label3.BackColor = System.Drawing.Color.Transparent;
 			this.label3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.label3.ForeColor = System.Drawing.Color.Black;
 			this.label3.Location = new System.Drawing.Point(-1, 56);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(465, 118);
@@ -106,24 +118,12 @@ namespace Menu
 			// 
 			this.label5.BackColor = System.Drawing.Color.Transparent;
 			this.label5.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.label5.ForeColor = System.Drawing.Color.Black;
 			this.label5.Location = new System.Drawing.Point(-1, 187);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(465, 23);
 			this.label5.TabIndex = 4;
 			this.label5.Text = "La ecología se caracteriza por tener ramas relacionadas todas con este estudio:";
-			// 
-			// pictureBox1
-			// 
-			this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-			this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(501, -2);
-			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(90, 114);
-			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-			this.pictureBox1.TabIndex = 5;
-			this.pictureBox1.TabStop = false;
 			// 
 			// label6
 			// 
@@ -261,13 +261,186 @@ namespace Menu
 			this.label17.Text = "estudia la composisión química de los seres vivos y los procesos químicos que ocu" +
 			"rren en ellos.";
 			// 
+			// label18
+			// 
+			this.label18.BackColor = System.Drawing.Color.Transparent;
+			this.label18.Font = new System.Drawing.Font("Footlight MT Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label18.ForeColor = System.Drawing.Color.OliveDrab;
+			this.label18.Location = new System.Drawing.Point(-1, 347);
+			this.label18.Name = "label18";
+			this.label18.Size = new System.Drawing.Size(88, 23);
+			this.label18.TabIndex = 18;
+			this.label18.Text = "Biología:";
+			// 
+			// label19
+			// 
+			this.label19.BackColor = System.Drawing.Color.Transparent;
+			this.label19.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.label19.Location = new System.Drawing.Point(59, 348);
+			this.label19.Name = "label19";
+			this.label19.Size = new System.Drawing.Size(545, 23);
+			this.label19.TabIndex = 19;
+			this.label19.Text = "Estudia los seres vivos considerando su estructura, funcionamiento, evolución, di" +
+			"stribución y relaciones.";
+			// 
+			// label21
+			// 
+			this.label21.BackColor = System.Drawing.Color.Transparent;
+			this.label21.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.label21.Location = new System.Drawing.Point(72, 370);
+			this.label21.Name = "label21";
+			this.label21.Size = new System.Drawing.Size(545, 23);
+			this.label21.TabIndex = 21;
+			this.label21.Text = "Estudia los fenómenos ocurridos en la superficie del planeta tierra, la superfici" +
+			"e terrestre.";
+			// 
+			// label20
+			// 
+			this.label20.BackColor = System.Drawing.Color.Transparent;
+			this.label20.Font = new System.Drawing.Font("Footlight MT Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label20.ForeColor = System.Drawing.Color.OliveDrab;
+			this.label20.Location = new System.Drawing.Point(-1, 370);
+			this.label20.Name = "label20";
+			this.label20.Size = new System.Drawing.Size(76, 23);
+			this.label20.TabIndex = 20;
+			this.label20.Text = "Geografía:";
+			// 
+			// label22
+			// 
+			this.label22.BackColor = System.Drawing.Color.Transparent;
+			this.label22.Font = new System.Drawing.Font("Footlight MT Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label22.ForeColor = System.Drawing.Color.OliveDrab;
+			this.label22.Location = new System.Drawing.Point(-1, 393);
+			this.label22.Name = "label22";
+			this.label22.Size = new System.Drawing.Size(88, 23);
+			this.label22.TabIndex = 22;
+			this.label22.Text = "Química:";
+			// 
+			// label23
+			// 
+			this.label23.BackColor = System.Drawing.Color.Transparent;
+			this.label23.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.label23.Location = new System.Drawing.Point(59, 393);
+			this.label23.Name = "label23";
+			this.label23.Size = new System.Drawing.Size(545, 23);
+			this.label23.TabIndex = 23;
+			this.label23.Text = "Es la ciencia que estudia la materia, la energía y sus cambios, sus interacciones" +
+			".";
+			// 
+			// label25
+			// 
+			this.label25.BackColor = System.Drawing.Color.Transparent;
+			this.label25.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.label25.Location = new System.Drawing.Point(72, 417);
+			this.label25.Name = "label25";
+			this.label25.Size = new System.Drawing.Size(545, 23);
+			this.label25.TabIndex = 25;
+			this.label25.Text = "Se enfoca en el estudio de las interacciones humenas entre si y con su entorno.";
+			// 
+			// label24
+			// 
+			this.label24.BackColor = System.Drawing.Color.Transparent;
+			this.label24.Font = new System.Drawing.Font("Footlight MT Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label24.ForeColor = System.Drawing.Color.OliveDrab;
+			this.label24.Location = new System.Drawing.Point(-1, 416);
+			this.label24.Name = "label24";
+			this.label24.Size = new System.Drawing.Size(88, 23);
+			this.label24.TabIndex = 24;
+			this.label24.Text = "Sociología:";
+			// 
+			// label26
+			// 
+			this.label26.BackColor = System.Drawing.Color.Transparent;
+			this.label26.Font = new System.Drawing.Font("Footlight MT Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label26.ForeColor = System.Drawing.Color.OliveDrab;
+			this.label26.Location = new System.Drawing.Point(-1, 439);
+			this.label26.Name = "label26";
+			this.label26.Size = new System.Drawing.Size(88, 23);
+			this.label26.TabIndex = 26;
+			this.label26.Text = "Matematica:";
+			// 
+			// label27
+			// 
+			this.label27.BackColor = System.Drawing.Color.Transparent;
+			this.label27.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.label27.Location = new System.Drawing.Point(82, 439);
+			this.label27.Name = "label27";
+			this.label27.Size = new System.Drawing.Size(545, 37);
+			this.label27.TabIndex = 27;
+			this.label27.Text = "ciencia que estudia las relaciones entre cantidades, magnitudes y propiedades, y " +
+			"las operaciones lógicas mediante las cuales se pueden deducir cantidades, magnit" +
+			"udes y propiedades desconocidas";
+			// 
+			// label28
+			// 
+			this.label28.BackColor = System.Drawing.Color.Transparent;
+			this.label28.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.label28.Location = new System.Drawing.Point(72, 476);
+			this.label28.Name = "label28";
+			this.label28.Size = new System.Drawing.Size(278, 22);
+			this.label28.TabIndex = 28;
+			this.label28.Text = "Es la ciencia que estudia la forma de los seres vivos.";
+			// 
+			// label29
+			// 
+			this.label29.BackColor = System.Drawing.Color.Transparent;
+			this.label29.Font = new System.Drawing.Font("Footlight MT Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label29.ForeColor = System.Drawing.Color.OliveDrab;
+			this.label29.Location = new System.Drawing.Point(-1, 475);
+			this.label29.Name = "label29";
+			this.label29.Size = new System.Drawing.Size(88, 23);
+			this.label29.TabIndex = 29;
+			this.label29.Text = "Morfoligía:";
+			// 
+			// pictureBox1
+			// 
+			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+			this.pictureBox1.Location = new System.Drawing.Point(492, 53);
+			this.pictureBox1.Name = "pictureBox1";
+			this.pictureBox1.Size = new System.Drawing.Size(284, 177);
+			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+			this.pictureBox1.TabIndex = 30;
+			this.pictureBox1.TabStop = false;
+			// 
+			// button1
+			// 
+			this.button1.BackColor = System.Drawing.Color.PaleGreen;
+			this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button1.Location = new System.Drawing.Point(569, 475);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(174, 39);
+			this.button1.TabIndex = 31;
+			this.button1.Text = "Volver";
+			this.button1.UseVisualStyleBackColor = false;
+			this.button1.Click += new System.EventHandler(this.Button1Click);
+			// 
 			// ecosistemas
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.ClientSize = new System.Drawing.Size(594, 507);
+			this.ClientSize = new System.Drawing.Size(788, 530);
+			this.Controls.Add(this.button1);
+			this.Controls.Add(this.pictureBox1);
+			this.Controls.Add(this.label28);
+			this.Controls.Add(this.label29);
+			this.Controls.Add(this.label27);
+			this.Controls.Add(this.label26);
+			this.Controls.Add(this.label25);
+			this.Controls.Add(this.label24);
+			this.Controls.Add(this.label23);
+			this.Controls.Add(this.label22);
+			this.Controls.Add(this.label21);
+			this.Controls.Add(this.label20);
+			this.Controls.Add(this.label19);
+			this.Controls.Add(this.label18);
 			this.Controls.Add(this.label17);
 			this.Controls.Add(this.label16);
 			this.Controls.Add(this.label15);
@@ -279,19 +452,32 @@ namespace Menu
 			this.Controls.Add(this.label8);
 			this.Controls.Add(this.label7);
 			this.Controls.Add(this.label6);
-			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.label5);
 			this.Controls.Add(this.label4);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.label10);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			this.Name = "ecosistemas";
 			this.Text = "ecosistemas";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
+			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.PictureBox pictureBox1;
+		private System.Windows.Forms.Label label29;
+		private System.Windows.Forms.Label label28;
+		private System.Windows.Forms.Label label27;
+		private System.Windows.Forms.Label label26;
+		private System.Windows.Forms.Label label24;
+		private System.Windows.Forms.Label label25;
+		private System.Windows.Forms.Label label23;
+		private System.Windows.Forms.Label label22;
+		private System.Windows.Forms.Label label20;
+		private System.Windows.Forms.Label label21;
+		private System.Windows.Forms.Label label19;
+		private System.Windows.Forms.Label label18;
 		private System.Windows.Forms.Label label17;
 		private System.Windows.Forms.Label label16;
 		private System.Windows.Forms.Label label15;
@@ -304,7 +490,6 @@ namespace Menu
 		private System.Windows.Forms.Label label9;
 		private System.Windows.Forms.Label label7;
 		private System.Windows.Forms.Label label6;
-		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.Label label3;

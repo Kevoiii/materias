@@ -29,9 +29,9 @@ namespace Menu
 			//
 		}
 		
-		void Label2Click(object sender, EventArgs e)
+		void Button1Click(object sender, EventArgs e)
 		{
-			
+			this.Close();
 		}
 	}
 }
