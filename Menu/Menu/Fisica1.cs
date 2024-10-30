@@ -38,5 +38,6 @@ namespace Menu
 			vel = vo-a*t;
 			MessageBox.Show("La velocidad fue: "+ vel.ToString());
 		}
+		//kkkk
 	} 
 }
