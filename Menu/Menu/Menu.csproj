@@ -40,6 +40,7 @@
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Speech" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq">
@@ -47,6 +48,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="English.cs" />
+    <Compile Include="English.Designer.cs">
+      <DependentUpon>English.cs</DependentUpon>
+    </Compile>
     <Compile Include="Fisica1.cs" />
     <Compile Include="Fisica1.Designer.cs">
       <DependentUpon>Fisica1.cs</DependentUpon>
@@ -71,6 +76,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="English.resx">
+      <DependentUpon>English.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Fisica1.resx">
       <DependentUpon>Fisica1.cs</DependentUpon>
     </EmbeddedResource>
