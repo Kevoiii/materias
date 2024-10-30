@@ -49,7 +49,6 @@ namespace Menu
 			this.Txtt = new System.Windows.Forms.TextBox();
 			this.Txta = new System.Windows.Forms.TextBox();
 			this.BtnCalcular = new System.Windows.Forms.Button();
-			this.button1 = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -153,18 +152,6 @@ namespace Menu
 			this.BtnCalcular.UseVisualStyleBackColor = false;
 			this.BtnCalcular.Click += new System.EventHandler(this.BtnCalcularClick);
 			// 
-			// button1
-			// 
-			this.button1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-			this.button1.Font = new System.Drawing.Font("Microsoft Yi Baiti", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button1.Location = new System.Drawing.Point(230, 303);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(59, 23);
-			this.button1.TabIndex = 18;
-			this.button1.Text = "Volver";
-			this.button1.UseVisualStyleBackColor = false;
-			this.button1.Click += new System.EventHandler(this.Button1Click);
-			// 
 			// Fisica1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -172,7 +159,6 @@ namespace Menu
 			this.BackColor = System.Drawing.SystemColors.ControlLightLight;
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.ClientSize = new System.Drawing.Size(301, 336);
-			this.Controls.Add(this.button1);
 			this.Controls.Add(this.BtnCalcular);
 			this.Controls.Add(this.Txta);
 			this.Controls.Add(this.Txtt);
@@ -190,7 +176,6 @@ namespace Menu
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
-		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.TextBox Txta;
 		private System.Windows.Forms.TextBox Txtt;
 		private System.Windows.Forms.TextBox Txtvo;
