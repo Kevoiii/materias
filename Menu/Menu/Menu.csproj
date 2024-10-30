@@ -48,6 +48,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adivinanza.cs" />
+    <Compile Include="adivinanza.Designer.cs">
+      <DependentUpon>adivinanza.cs</DependentUpon>
+    </Compile>
     <Compile Include="English.cs" />
     <Compile Include="English.Designer.cs">
       <DependentUpon>English.cs</DependentUpon>
@@ -76,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="adivinanza.resx">
+      <DependentUpon>adivinanza.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="English.resx">
       <DependentUpon>English.cs</DependentUpon>
     </EmbeddedResource>
