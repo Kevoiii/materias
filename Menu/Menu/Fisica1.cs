@@ -15,7 +15,7 @@ namespace Menu
 	/// <summary>
 	/// Description of Fisica1.
 	/// </summary>
-	public partial class Fisica1 : Form 
+	public partial class Fisica1 : Form  
 	{
 		public Fisica1()
 		{
@@ -35,6 +35,10 @@ namespace Menu
 			  double a = double.Parse(txta.Text);
 			  double vel= vo-a*t;
 			  MessageBox.Show("La velocidad fue: "+ vel.ToString());
+		}
+		void BtnvolverClick(object sender, EventArgs e)
+		{
+			this.Close();
 		}
 			
 		}

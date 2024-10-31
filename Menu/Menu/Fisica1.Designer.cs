@@ -49,6 +49,7 @@ namespace Menu
 			this.txtt = new System.Windows.Forms.TextBox();
 			this.txta = new System.Windows.Forms.TextBox();
 			this.button1 = new System.Windows.Forms.Button();
+			this.btnvolver = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -152,6 +153,18 @@ namespace Menu
 			this.button1.UseVisualStyleBackColor = false;
 			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
+			// btnvolver
+			// 
+			this.btnvolver.BackColor = System.Drawing.Color.White;
+			this.btnvolver.Font = new System.Drawing.Font("Microsoft Yi Baiti", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnvolver.Location = new System.Drawing.Point(229, 302);
+			this.btnvolver.Name = "btnvolver";
+			this.btnvolver.Size = new System.Drawing.Size(59, 24);
+			this.btnvolver.TabIndex = 18;
+			this.btnvolver.Text = "Volver";
+			this.btnvolver.UseVisualStyleBackColor = false;
+			this.btnvolver.Click += new System.EventHandler(this.BtnvolverClick);
+			// 
 			// Fisica1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -159,6 +172,7 @@ namespace Menu
 			this.BackColor = System.Drawing.SystemColors.ControlLightLight;
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.ClientSize = new System.Drawing.Size(301, 336);
+			this.Controls.Add(this.btnvolver);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.txta);
 			this.Controls.Add(this.txtt);
@@ -189,5 +203,6 @@ namespace Menu
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Button btnvolver;
 	}
 }
