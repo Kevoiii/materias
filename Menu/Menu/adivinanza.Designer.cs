@@ -43,6 +43,7 @@ namespace Menu
 			this.lblAdivinanza2 = new System.Windows.Forms.Label();
 			this.txtRespuesta2 = new System.Windows.Forms.TextBox();
 			this.btnVerificar = new System.Windows.Forms.Button();
+			this.button1 = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -95,13 +96,25 @@ namespace Menu
 			// 
 			this.btnVerificar.BackColor = System.Drawing.SystemColors.Menu;
 			this.btnVerificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnVerificar.Location = new System.Drawing.Point(195, 291);
+			this.btnVerificar.Location = new System.Drawing.Point(257, 291);
 			this.btnVerificar.Name = "btnVerificar";
-			this.btnVerificar.Size = new System.Drawing.Size(75, 23);
+			this.btnVerificar.Size = new System.Drawing.Size(130, 23);
 			this.btnVerificar.TabIndex = 5;
 			this.btnVerificar.Text = "Verificar";
 			this.btnVerificar.UseVisualStyleBackColor = false;
 			this.btnVerificar.Click += new System.EventHandler(this.BtnVerificarClick);
+			// 
+			// button1
+			// 
+			this.button1.BackColor = System.Drawing.SystemColors.Menu;
+			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button1.Location = new System.Drawing.Point(13, 291);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(127, 23);
+			this.button1.TabIndex = 6;
+			this.button1.Text = "Volver";
+			this.button1.UseVisualStyleBackColor = false;
+			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
 			// adivinanza
 			// 
@@ -109,6 +122,7 @@ namespace Menu
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.ClientSize = new System.Drawing.Size(435, 340);
+			this.Controls.Add(this.button1);
 			this.Controls.Add(this.btnVerificar);
 			this.Controls.Add(this.txtRespuesta2);
 			this.Controls.Add(this.lblAdivinanza2);
@@ -120,6 +134,7 @@ namespace Menu
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.Button btnVerificar;
 		private System.Windows.Forms.TextBox txtRespuesta2;
 		private System.Windows.Forms.Label lblAdivinanza2;
