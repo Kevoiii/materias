@@ -15,7 +15,7 @@ namespace Menu
 	/// <summary>
 	/// Description of Fisica1.
 	/// </summary>
-	public partial class Fisica1 : Form
+	public partial class Fisica1 : Form 
 	{
 		public Fisica1()
 		{
@@ -28,5 +28,15 @@ namespace Menu
 			// TODO: Add constructor code after the InitializeComponent() call.
 			// 
 		}
+		void Button1Click(object sender, EventArgs e)
+		{
+			  double vo = double.Parse(txtvo.Text);
+			  double t = double.Parse(txtt.Text);
+			  double a = double.Parse(txta.Text);
+			  double vel= vo-a*t;
+			  MessageBox.Show("La velocidad fue: "+ vel.ToString());
+		}
+			
+		}
 	}
-}
+
