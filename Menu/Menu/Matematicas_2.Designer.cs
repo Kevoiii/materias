@@ -186,12 +186,14 @@ namespace Menu
 			// 
 			// btnregresar_menu
 			// 
+			this.btnregresar_menu.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnregresar_menu.Location = new System.Drawing.Point(12, 234);
 			this.btnregresar_menu.Name = "btnregresar_menu";
-			this.btnregresar_menu.Size = new System.Drawing.Size(100, 23);
+			this.btnregresar_menu.Size = new System.Drawing.Size(119, 23);
 			this.btnregresar_menu.TabIndex = 16;
-			this.btnregresar_menu.Text = "Regresar al menu";
+			this.btnregresar_menu.Text = "Regresar ";
 			this.btnregresar_menu.UseVisualStyleBackColor = true;
+			this.btnregresar_menu.Click += new System.EventHandler(this.Btnregresar_menuClick);
 			// 
 			// Matematicas_2
 			// 

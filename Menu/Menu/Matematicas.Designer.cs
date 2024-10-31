@@ -36,6 +36,7 @@ namespace Menu
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Matematicas));
 			this.lblmatematicas = new System.Windows.Forms.Label();
 			this.lblcal_2 = new System.Windows.Forms.Label();
 			this.lblcal_3 = new System.Windows.Forms.Label();
@@ -45,6 +46,11 @@ namespace Menu
 			this.lblcal_1 = new System.Windows.Forms.Label();
 			this.btnregresar = new System.Windows.Forms.Button();
 			this.btncalcular = new System.Windows.Forms.Button();
+			this.txtCal_1 = new System.Windows.Forms.TextBox();
+			this.txtcal_3 = new System.Windows.Forms.TextBox();
+			this.txtcal_4 = new System.Windows.Forms.TextBox();
+			this.txtcal_5 = new System.Windows.Forms.TextBox();
+			this.txtcal_2 = new System.Windows.Forms.TextBox();
 			this.SuspendLayout();
 			// 
 			// lblmatematicas
@@ -55,7 +61,6 @@ namespace Menu
 			this.lblmatematicas.Size = new System.Drawing.Size(117, 26);
 			this.lblmatematicas.TabIndex = 0;
 			this.lblmatematicas.Text = "Matematicas";
-			this.lblmatematicas.Click += new System.EventHandler(this.LblmatematicasClick);
 			// 
 			// lblcal_2
 			// 
@@ -92,7 +97,6 @@ namespace Menu
 			this.lblcal_5.Size = new System.Drawing.Size(117, 26);
 			this.lblcal_5.TabIndex = 4;
 			this.lblcal_5.Text = "Cal_5";
-			this.lblcal_5.Click += new System.EventHandler(this.Label4Click);
 			// 
 			// label5
 			// 
@@ -117,10 +121,11 @@ namespace Menu
 			this.btnregresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnregresar.Location = new System.Drawing.Point(47, 260);
 			this.btnregresar.Name = "btnregresar";
-			this.btnregresar.Size = new System.Drawing.Size(75, 23);
+			this.btnregresar.Size = new System.Drawing.Size(106, 23);
 			this.btnregresar.TabIndex = 7;
 			this.btnregresar.Text = "Regresar";
 			this.btnregresar.UseVisualStyleBackColor = true;
+			this.btnregresar.Click += new System.EventHandler(this.BtnregresarClick);
 			// 
 			// btncalcular
 			// 
@@ -132,11 +137,52 @@ namespace Menu
 			this.btncalcular.Text = "Calcular";
 			this.btncalcular.UseVisualStyleBackColor = true;
 			// 
+			// txtCal_1
+			// 
+			this.txtCal_1.Location = new System.Drawing.Point(185, 96);
+			this.txtCal_1.Name = "txtCal_1";
+			this.txtCal_1.Size = new System.Drawing.Size(67, 20);
+			this.txtCal_1.TabIndex = 9;
+			// 
+			// txtcal_3
+			// 
+			this.txtcal_3.Location = new System.Drawing.Point(185, 148);
+			this.txtcal_3.Name = "txtcal_3";
+			this.txtcal_3.Size = new System.Drawing.Size(67, 20);
+			this.txtcal_3.TabIndex = 10;
+			// 
+			// txtcal_4
+			// 
+			this.txtcal_4.Location = new System.Drawing.Point(185, 174);
+			this.txtcal_4.Name = "txtcal_4";
+			this.txtcal_4.Size = new System.Drawing.Size(67, 20);
+			this.txtcal_4.TabIndex = 11;
+			// 
+			// txtcal_5
+			// 
+			this.txtcal_5.Location = new System.Drawing.Point(185, 200);
+			this.txtcal_5.Name = "txtcal_5";
+			this.txtcal_5.Size = new System.Drawing.Size(67, 20);
+			this.txtcal_5.TabIndex = 12;
+			// 
+			// txtcal_2
+			// 
+			this.txtcal_2.Location = new System.Drawing.Point(185, 122);
+			this.txtcal_2.Name = "txtcal_2";
+			this.txtcal_2.Size = new System.Drawing.Size(67, 20);
+			this.txtcal_2.TabIndex = 13;
+			// 
 			// Matematicas
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.ClientSize = new System.Drawing.Size(363, 324);
+			this.Controls.Add(this.txtcal_2);
+			this.Controls.Add(this.txtcal_5);
+			this.Controls.Add(this.txtcal_4);
+			this.Controls.Add(this.txtcal_3);
+			this.Controls.Add(this.txtCal_1);
 			this.Controls.Add(this.btncalcular);
 			this.Controls.Add(this.btnregresar);
 			this.Controls.Add(this.lblcal_1);
@@ -149,7 +195,13 @@ namespace Menu
 			this.Name = "Matematicas";
 			this.Text = "Matematicas";
 			this.ResumeLayout(false);
+			this.PerformLayout();
 		}
+		private System.Windows.Forms.TextBox txtcal_2;
+		private System.Windows.Forms.TextBox txtcal_5;
+		private System.Windows.Forms.TextBox txtcal_4;
+		private System.Windows.Forms.TextBox txtcal_3;
+		private System.Windows.Forms.TextBox txtCal_1;
 		private System.Windows.Forms.Button btncalcular;
 		private System.Windows.Forms.Button btnregresar;
 		private System.Windows.Forms.Label lblcal_1;

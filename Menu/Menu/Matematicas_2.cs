@@ -28,5 +28,10 @@ namespace Menu
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void Btnregresar_menuClick(object sender, EventArgs e)
+		{
+			this.Close();
+		}
 	}
 }
