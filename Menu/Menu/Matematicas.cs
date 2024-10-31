@@ -31,7 +31,7 @@ namespace Menu
 		
 		void BtnregresarClick(object sender, EventArgs e)
 		{
-			this.Close();
+			this.Close(); 
 			
 		}
 	} 
