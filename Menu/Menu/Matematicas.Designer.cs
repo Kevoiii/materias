@@ -136,6 +136,7 @@ namespace Menu
 			this.btncalcular.TabIndex = 8;
 			this.btncalcular.Text = "Calcular";
 			this.btncalcular.UseVisualStyleBackColor = true;
+			this.btncalcular.Click += new System.EventHandler(this.BtncalcularClick);
 			// 
 			// txtCal_1
 			// 

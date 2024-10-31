@@ -34,5 +34,18 @@ namespace Menu
 			this.Close(); 
 			
 		}
+		
+		void BtncalcularClick(object sender, EventArgs e)
+		{
+			 	double Cal_1=double.Parse(txtCal_1.Text);
+                double cal_2=double.Parse(txtcal_2.Text);
+                double cal_3=double.Parse(txtcal_3.Text);
+                double cal_4=double.Parse(txtcal_4.Text);
+                double cal_5=double.Parse(txtcal_5.Text);
+                double cal;
+                cal=(Cal_1+cal_2+cal_3+cal_4+cal_5)/5;
+		
+			MessageBox.Show("El promedio es "+cal.ToString());
+        }
 	} 
 }
