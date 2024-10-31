@@ -57,7 +57,9 @@ namespace Menu
 			this.label17 = new System.Windows.Forms.Label();
 			this.btnvolver = new System.Windows.Forms.Button();
 			this.button1 = new System.Windows.Forms.Button();
+			this.pictureBox2 = new System.Windows.Forms.PictureBox();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -66,7 +68,7 @@ namespace Menu
 			this.label1.ForeColor = System.Drawing.Color.DarkSeaGreen;
 			this.label1.Location = new System.Drawing.Point(122, 0);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(282, 34);
+			this.label1.Size = new System.Drawing.Size(343, 34);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "Ecosistemas: la ecología";
 			// 
@@ -158,7 +160,7 @@ namespace Menu
 			this.label9.Size = new System.Drawing.Size(465, 23);
 			this.label9.TabIndex = 9;
 			this.label9.Text = "estudia el agua, su distribución, circulación, origen, propiedades e interaccione" +
-	"s.";
+			"s.";
 			// 
 			// label8
 			// 
@@ -225,7 +227,7 @@ namespace Menu
 			this.label13.Size = new System.Drawing.Size(465, 23);
 			this.label13.TabIndex = 13;
 			this.label13.Text = "Estudia las causas de una enfermedad, afección, o bien, el conjunt de causas de u" +
-	"na enfermedad.";
+			"na enfermedad.";
 			// 
 			// label15
 			// 
@@ -237,7 +239,7 @@ namespace Menu
 			this.label15.Size = new System.Drawing.Size(545, 23);
 			this.label15.TabIndex = 15;
 			this.label15.Text = "estudio de los genes y la herencia, cómo se transmiten lo rasgos y caracteríztica" +
-	"s de padres e hijos.";
+			"s de padres e hijos.";
 			// 
 			// label16
 			// 
@@ -260,7 +262,7 @@ namespace Menu
 			this.label17.Size = new System.Drawing.Size(545, 23);
 			this.label17.TabIndex = 17;
 			this.label17.Text = "estudia la composisión química de los seres vivos y los procesos químicos que ocu" +
-	"rren en ellos.";
+			"rren en ellos.";
 			// 
 			// btnvolver
 			// 
@@ -286,6 +288,16 @@ namespace Menu
 			this.button1.UseVisualStyleBackColor = false;
 			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
+			// pictureBox2
+			// 
+			this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+			this.pictureBox2.Location = new System.Drawing.Point(364, 351);
+			this.pictureBox2.Name = "pictureBox2";
+			this.pictureBox2.Size = new System.Drawing.Size(208, 144);
+			this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pictureBox2.TabIndex = 21;
+			this.pictureBox2.TabStop = false;
+			// 
 			// ecosistemas
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -293,6 +305,7 @@ namespace Menu
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(594, 507);
+			this.Controls.Add(this.pictureBox2);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.btnvolver);
 			this.Controls.Add(this.label17);
@@ -317,9 +330,10 @@ namespace Menu
 			this.Name = "ecosistemas";
 			this.Text = "ecosistemas";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
 			this.ResumeLayout(false);
-
 		}
+		private System.Windows.Forms.PictureBox pictureBox2;
 		private System.Windows.Forms.Label label17;
 		private System.Windows.Forms.Label label16;
 		private System.Windows.Forms.Label label15;

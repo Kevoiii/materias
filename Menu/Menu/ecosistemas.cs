@@ -11,7 +11,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using System.Speech.Synthesis;
 
-namespace Menu
+namespace Menu 
 {
 	/// <summary>
 	/// Description of ecosistemas.
