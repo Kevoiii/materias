@@ -56,6 +56,7 @@ namespace Menu
 			this.label16 = new System.Windows.Forms.Label();
 			this.label17 = new System.Windows.Forms.Label();
 			this.btnvolver = new System.Windows.Forms.Button();
+			this.button1 = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -79,7 +80,6 @@ namespace Menu
 			this.label2.Size = new System.Drawing.Size(282, 34);
 			this.label2.TabIndex = 1;
 			this.label2.Text = "¿Qué significa ecología?";
-		
 			// 
 			// label3
 			// 
@@ -274,6 +274,18 @@ namespace Menu
 			this.btnvolver.UseVisualStyleBackColor = false;
 			this.btnvolver.Click += new System.EventHandler(this.BtnvolverClick);
 			// 
+			// button1
+			// 
+			this.button1.BackColor = System.Drawing.Color.YellowGreen;
+			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button1.Location = new System.Drawing.Point(197, 408);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(132, 32);
+			this.button1.TabIndex = 20;
+			this.button1.Text = "Reproducir audio";
+			this.button1.UseVisualStyleBackColor = false;
+			this.button1.Click += new System.EventHandler(this.Button1Click);
+			// 
 			// ecosistemas
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -281,6 +293,7 @@ namespace Menu
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(594, 507);
+			this.Controls.Add(this.button1);
 			this.Controls.Add(this.btnvolver);
 			this.Controls.Add(this.label17);
 			this.Controls.Add(this.label16);
@@ -326,6 +339,7 @@ namespace Menu
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Button btnvolver;
+		private System.Windows.Forms.Button button1;
 		
 	}
 }
