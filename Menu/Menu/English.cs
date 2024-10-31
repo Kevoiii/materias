@@ -25,7 +25,7 @@ namespace Menu
 			// The InitializeComponent() call is required for Windows Forms designer support.
 			//
 			InitializeComponent();
-			synthesier = new SpeechSynthesizer();
+			synthesier = new SpeechSynthesizer(); 
 			
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
@@ -33,8 +33,6 @@ namespace Menu
 		}
 		void Button1Click(object sender, EventArgs e)
 		{
-			MainForm menu = new MainForm();
-			menu.Show();
 			this.Close();
 			
 		}
