@@ -47,5 +47,10 @@ namespace Menu
         MessageBox.Show("Una o ambas respuestas son incorrectas, intenta de nuevo.");
     }
 }
+		
+		void BtnVolver2Click(object sender, EventArgs e)
+		{
+			this.Hide();
+		}
 	}
-} 
+}  
