@@ -45,9 +45,9 @@ namespace Menu
     else
     {
         MessageBox.Show("Una o ambas respuestas son incorrectas, intenta de nuevo.");
-    }  
-		
-		void Button1Click(object sender, EventArgs e)
+    }
+		}
+		void Button1Click(object sender, EventArgs e) 
 		{
 			this.Close();
 		}
