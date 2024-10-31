@@ -29,9 +29,10 @@ namespace Menu
 			//
 		}
 		
-		void Label2Click(object sender, EventArgs e)
+	
+		void BtnvolverClick(object sender, EventArgs e)
 		{
-			
+			this.Close(); 
 		}
 	}
 }
