@@ -44,3 +44,4 @@ C:\Users\CC2_PC29\materias\Menu\Menu\bin\Debug\Menu.exe
 C:\Users\CC2_PC29\materias\Menu\Menu\bin\Debug\Menu.pdb
 C:\Users\CC2_PC29\materias\Menu\Menu\obj\Debug\Menu.pdb
 C:\Users\CC2_PC29\materias\Menu\Menu\obj\Debug\Menu.adivinanza.resources
+C:\Users\Usuario\materias\Menu\Menu\obj\Debug\Menu.adivinanza.resources
