@@ -8,7 +8,7 @@
  */
 namespace Menu
 {
-	partial class Matematicas
+	partial class Matematicas 
 	{
 		/// <summary>
 		/// Designer variable used to keep track of non-visual components.
