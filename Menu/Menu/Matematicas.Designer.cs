@@ -55,7 +55,7 @@ namespace Menu
 			this.lblmatematicas.Size = new System.Drawing.Size(117, 26);
 			this.lblmatematicas.TabIndex = 0;
 			this.lblmatematicas.Text = "Matematicas";
-			this.lblmatematicas.Click += new System.EventHandler(this.LblmatematicasClick);
+		
 			// 
 			// lblcal_2
 			// 
@@ -92,7 +92,7 @@ namespace Menu
 			this.lblcal_5.Size = new System.Drawing.Size(117, 26);
 			this.lblcal_5.TabIndex = 4;
 			this.lblcal_5.Text = "Cal_5";
-			this.lblcal_5.Click += new System.EventHandler(this.Label4Click);
+		
 			// 
 			// label5
 			// 
