@@ -36,7 +36,10 @@ namespace Menu
 	
 		void BtnvolverClick(object sender, EventArgs e)
 		{
-			this.Close();  
+			MainForm ingles = new MainForm();
+			this.Hide();
+			ingles.ShowDialog();
+			this.Close();
 		}
 		void Button1Click(object sender, EventArgs e)
 		{

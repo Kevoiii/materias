@@ -41,5 +41,12 @@ namespace Menu
         
             MessageBox.Show("El promedio es "+Cal.ToString());
 		}
+		void BtnregresarClick(object sender, EventArgs e)
+		{
+	MainForm ingles = new MainForm();
+			this.Hide();
+			ingles.ShowDialog();
+			this.Close();
+		}
 	} 
 }

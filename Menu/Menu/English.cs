@@ -33,6 +33,9 @@ namespace Menu
 		}
 		void Button1Click(object sender, EventArgs e)
 		{
+			MainForm ingles = new MainForm();
+			this.Hide();
+			ingles.ShowDialog();
 			this.Close();
 			
 		}
