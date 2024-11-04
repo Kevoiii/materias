@@ -124,6 +124,7 @@ namespace Menu
 			this.btnregresar.TabIndex = 7;
 			this.btnregresar.Text = "Regresar";
 			this.btnregresar.UseVisualStyleBackColor = true;
+			this.btnregresar.Click += new System.EventHandler(this.BtnregresarClick);
 			// 
 			// btncalcular
 			// 
@@ -194,6 +195,7 @@ namespace Menu
 			this.Text = "Matematicas";
 			this.ResumeLayout(false);
 			this.PerformLayout();
+
 		}
 		private System.Windows.Forms.TextBox txtCal_5;
 		private System.Windows.Forms.TextBox txtCal_4;

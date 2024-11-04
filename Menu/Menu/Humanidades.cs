@@ -37,6 +37,9 @@ namespace Menu
 		
 		void BtnVolverClick(object sender, EventArgs e)
 		{
+			MainForm ingles = new MainForm();
+			this.Hide();
+			ingles.ShowDialog();
 			this.Close();
 		}
 	}

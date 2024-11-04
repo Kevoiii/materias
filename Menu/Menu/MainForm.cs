@@ -32,31 +32,41 @@ namespace Menu
 		void BtninglesClick(object sender, EventArgs e)
 		{
 			English ingles = new English();
-			ingles.Show();
+			this.Hide();
+			ingles.ShowDialog();
+			this.Close();
 			
 		}
 		void BtnFisicaClick(object sender, EventArgs e)
 		{ 
-			Fisica1 fisica = new Fisica1();
-			fisica.Show();
+			Fisica1 ingles = new Fisica1();
+			this.Hide();
+			ingles.ShowDialog();
+			this.Close();
 			
 		}
 		void BtnmateClick(object sender, EventArgs e)
 		{
-			Matematicas mate = new Matematicas();
-			mate.Show();
+			Matematicas ingles = new Matematicas();
+			this.Hide();
+			ingles.ShowDialog();
+			this.Close();
 			
 		}
 		void BtnhumanidadesClick(object sender, EventArgs e)
 		{
-			Humanidades huma = new Humanidades();
-			huma.Show();
+			Humanidades ingles = new Humanidades();
+			this.Hide();
+			ingles.ShowDialog();
+			this.Close();
 			
 		}
 		void BtnecoClick(object sender, EventArgs e)
 		{
-			ecosistemas eco = new ecosistemas();
-			eco.Show();
+			ecosistemas ingles = new ecosistemas();
+			this.Hide();
+			ingles.ShowDialog();
+			this.Close();
 			
 		}
 	}
